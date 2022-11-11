@@ -61,7 +61,7 @@ export async function getStaticProps(context: { params: any }) {
   const { params } = context;
   const projectId = params.name;
   const project = projects.find(
-    (project: { name: any }) => project.name === projectId
+    (project: { name: string }) => project.name === projectId
   );
 
   if (!project) {
@@ -80,11 +80,11 @@ export async function getStaticProps(context: { params: any }) {
 
 export async function getStaticPaths() {
   const projects = await client.fetch(`*[_type == "portfolio"]`);
-  const ids = projects.map((project: { name: any }) => project.name);
+  const ids = projects.map((project: { name: string }) => project.name);
   const pathsWithParams = ids.map((id: any) => ({ params: { name: id } }));
 
   return {
     paths: pathsWithParams,
-    fallback: true, //If you notice that the projects are too much and the website takes time to load, kindly change the boolean to string: "blocking"
+    fallback: "blocking",
   };
 }
