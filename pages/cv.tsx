@@ -4,7 +4,6 @@ import CVNav from "../components/CVNav";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
 import { createClient } from "next-sanity";
 import ImageUrlBuilder from "@sanity/image-url";
 import { SanityImageSource } from "@sanity/image-url/lib/types/types";
