@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="NIPPYSKY- NIPPY The Creator. iDesign, iCode, iCreate. UI Designer, Web & Mobile Developer."
+          content="NIPPY The Creator. iDesign, iCode, iCreate. UI Designer, Web & Mobile Developer."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
