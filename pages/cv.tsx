@@ -27,7 +27,7 @@ function CV({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Chukwudubem Osegbe's Curriculum Vitae"
+          content="NIPPY The Creator - Chukwudubem Osegbe's Curriculum Vitae"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
