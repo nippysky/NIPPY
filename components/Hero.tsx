@@ -19,7 +19,7 @@ export default function Hero() {
           NIPPY THE CREATOR
         </h1>
         <h2 className="text-[1.35rem] md:text-[1.6rem] font-semibold text-black dark:text-white">
-          UI Designer, Mobile & Web Developer
+          JavaScript /TypeScript Mobile & Web Developer | UI Designer
         </h2>
         <h3 className="text-[1.2rem] md:text-[1.5rem] font-medium text-royal dark:text-gold tracking-widest mt-3">
           iDesign, iCode, iCreate
@@ -56,7 +56,7 @@ export default function Hero() {
             className="text-[1.2rem] md:text-[1.7rem] font-medium text-black dark:text-white"
           >
             Hi, I am Chukwudubem Osegbe. I love to design and develop clean
-            responsive user interface for Mobile and Web
+            responsive applications for Mobile and Web
           </motion.h3>
 
           {/* Social Icons And  Resume */}
