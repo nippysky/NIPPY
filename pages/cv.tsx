@@ -200,7 +200,7 @@ export async function getStaticProps() {
       schools,
       techStacks,
     },
-    revalidate: 21000,
+    revalidate: 3600,
   };
 }
 
