@@ -26,7 +26,7 @@ export default function CVNav() {
             target="_blank"
             rel="noreferrer"
             href={
-              "https://drive.google.com/file/d/1kqq0oQ_St7yKvdbLFyHkyy-O1U7G2e6w/view?usp=sharing"
+              "https://drive.google.com/file/d/1V03R4uycF4u5UaVJF0Sp2L4Ny_lFzlgR/view"
             }
           >
             Download CV
